@@ -1,7 +1,36 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 and tested with RSpec and Capybara.
 
+### Author
+
+Berker Erol. October 2019.
+
+## Interface
+
+### Landing Page
+
+Landing page, with an overview of all available products.
+
+!["landing page"](docs/landing_page.png)
+
+### Cart
+
+Displays the content of the cart to proceed with order.
+
+!["checkout page"](docs/checkout_page.png)
+
+### Checkout Page
+
+Secure checkout provided by Stripe API.
+
+!["checkout page"](docs/checkout.png)
+
+### Implemented Tests
+
+Unit and integration tests using RSpec and Capybara.
+
+!["unit tests"](docs/test.png)
 
 ## Setup
 
